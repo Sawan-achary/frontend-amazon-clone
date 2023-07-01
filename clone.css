@@ -106,7 +106,9 @@ border-radius:5px;
     font-size:0.85rem;
     font-weight:700;
 }
-
+.panel-download{
+    padding:5px;
+}
 
 
 .panel{
@@ -120,11 +122,12 @@ border-radius:5px;
 .panel-options{
     width:70%;
     font-size:0.85rem;
+    
 }
 .panel-options p{
     display:inline;
     margin:10px;
-   
+    padding:5px;
 }
 
 .hero-section{
@@ -190,4 +193,26 @@ footer{
     display:flex;
     justify-content:center;
     align-items:center;
+}
+.foot-panel1 i{
+    margin-left:10px;
+}
+
+.foot-second{
+    background-color:#222f3d;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+}
+.foot-second ul{
+    padding:1rem;
+}
+
+.foot-second ul a{
+    display:block;
+    font-size:14px;
+    padding:0.4rem;
+}
+.foot-second ul p{
+font-weight:700;
 }
